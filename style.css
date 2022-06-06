@@ -1,0 +1,97 @@
+header{
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+h1{
+  
+    width: 133px;
+    height: 25px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;  
+}
+
+.main-container{
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+}
+
+.content-container{
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+}
+
+.img-container{
+    margin-left: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+.img-container img{
+    width: 540px;
+    height: 415px;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: start;
+}
+
+
+    .text-container h2 {
+        width: 586px;
+        height: 190px;
+        font-family:monospace;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 94px;
+        margin-bottom: 1rem;
+
+
+    }
+
+    .text-container p{
+       margin-bottom: 3rem;
+        width: 381px;
+        height: 108px;
+        font-family:monospace;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .text-container button{
+        background-color: #333;
+        color: #eee;
+        width: 216px;
+        height: 68px;
+        font-family:monospace;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+
+    @media all and (max-width:500px){
+        .content-container{
+           flex-flow: column wrap;
+            justify-content: center;
+            
+        }
+        .text-container h2{
+            font-size: 80px;
+            
+        }
+
+      
+        
+    }
